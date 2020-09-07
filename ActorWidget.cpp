@@ -15,6 +15,7 @@ void ActorWidget::paintEvent(QPaintEvent *event)
     QPainter p(this);
     p.setPen(Qt::blue);
     p.drawText(rect(), Qt::AlignCenter, mInfo);
+//    p.fillRect(rect().adjusted(-10, -10, 10, 10), QBrush());
 }
 
 void ActorWidget::on_pushButton_clicked()

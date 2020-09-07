@@ -19,6 +19,8 @@ SOURCES += \
     ActorWidget.cpp \
     Controller.cpp \
     CustomGraphicsScene.cpp \
+    MoveGraphicsView.cpp \
+    TestShow.cpp \
     main.cpp \
     MainWindow.cpp
 
@@ -26,13 +28,16 @@ HEADERS += \
     ActorWidget.h \
     Controller.h \
     CustomGraphicsScene.h \
-    MainWindow.h
+    MainWindow.h \
+    MoveGraphicsView.h \
+    TestShow.h
 
 FORMS += \
     ActorWidget.ui \
     Controller.ui \
     CustomGraphicsScene.ui \
-    MainWindow.ui
+    MainWindow.ui \
+    TestShow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
